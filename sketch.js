@@ -60,7 +60,7 @@ function writePosition(x, y){
 
 function showError(){
 
-  console.error("Error in the program is due to the writting mistake");
+  console.log("Error in the program is due to the writting mistake");
 
 }
 
