@@ -26,9 +26,9 @@ function setup() {
 function draw() {
   background(bg);  
   drawSprites();
-  text("Use Arrow Keys to control Hot Air Balloon", 100, displayWidth/2);
+  text("Use Arrow Keys to control Hot Air Balloon", 100, 100);
 
-  if(keyDown(LEFT_ARROW) || touches.lenght < windowWidth/2){
+  if(keyDown(LEFT_ARROW) || touches.length < windowWidth/2){
     writePosition(-10,0);
   }
   else if(keyDown(RIGHT_ARROW)){
